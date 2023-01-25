@@ -5,3 +5,7 @@ Below are the tools and technolgies used:
 3.	Matplotlib for data visualization
 4.	Sklearn for model building
 5.	Jupyter notebook
+
+
+Kaggle Dataset link
+https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data
