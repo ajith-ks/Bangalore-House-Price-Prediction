@@ -41,6 +41,13 @@ A user-friendly web interface for predicting house prices has been created. To u
 4. Select a location, enter the number of bedrooms (BHK), number of bathrooms, and square footage.
 5. Click the "Predict Price" button to get the predicted house price.
 
+![Webpage Screenshot](Form.png)
+
+
+**Experience Our User-Friendly Web Interface**
+
+Explore our intuitive web interface designed to make house price prediction in Bangalore a breeze. Simply select a location, enter the number of bedrooms (BHK), number of bathrooms, and square footage, then click "Predict Price." Discover the power of data science and machine learning at your fingertips!
+
 ## Contact
 
 If you have any questions, feedback, or suggestions, please don't hesitate to reach out:
