@@ -30,6 +30,7 @@
 
 .nav-links li {
   margin: 0 15px; /* Add spacing between menu items */
+  perspective: 1000px; /* Set the perspective for 3D effect */
 }
 
 .nav-links a {
@@ -41,5 +42,5 @@
 
 /* 3D effect on hover for the links */
 .nav-links a:hover {
-  transform: translateY(-3px); /* Move the link up slightly */
+  transform: translateY(-3px) rotateX(10deg); /* Move the link up and apply X-axis rotation */
 }
