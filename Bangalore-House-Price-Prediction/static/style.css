@@ -1,0 +1,45 @@
+/* Apply styles to the navigation menus */
+.navbar {
+  background-color: rgba(0, 0, 255, 0.5); /* Blue transparent background */
+  padding: 10px; /* Add padding for spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  perspective: 1000px; /* Set the perspective for 3D effect */
+}
+
+/* Style for the logo */
+.logo {
+  max-width: 100px; /* Set the maximum width for the logo */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s; /* Add a smooth transition for the logo */
+}
+
+/* 3D effect on hover for the logo */
+.logo:hover {
+  transform: rotateY(180deg); /* Rotate the logo on the Y-axis */
+}
+
+/* Style for the navigation links */
+.nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px; /* Add spacing between menu items */
+}
+
+.nav-links a {
+  color: #fff; /* Set the text color to white */
+  text-decoration: none; /* Remove underlines from links */
+  font-weight: bold;
+  transition: transform 0.3s; /* Add a smooth transition for the links */
+}
+
+/* 3D effect on hover for the links */
+.nav-links a:hover {
+  transform: translateY(-3px); /* Move the link up slightly */
+}
